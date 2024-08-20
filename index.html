@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="fontawesome.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <!-- FONTAWESOME -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <title>MemeHub - make your own meme</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container flex-row" >
+        <div class="header__logo">     
+          <h3 style="color: #fff"><b>meme<span class="head-two">hub.</span></b></h3>
+        </div>
+        <nav class="navbar">
+          <ul class="header__menu  flex-row" id="nev-bar">
+            <li>
+              <a href="#hero">Home</a>
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#services">Services</a>
+            </li>
+            <li>
+              <a href="#projects">Projects</a>
+            </li>
+            <li>
+              <a href="#team">Team</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="right flex-center">
+          <a href="login.html" class="btn btn-secondary">Log In</a>
+          <div class="menu_btn">
+            <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+            <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- HEADER -->
+
+    <!-- HERO -->
+
+    <section id="hero" class="container flex-row"style="background-image: url(img/background3.jpg);" >
+      <div class="hero__content">
+        <h1 class="title" style="font-size: 60px;">Free <br>Meme Generator</h1>
+        <p class="text">
+          Make memes from images and videos in just a few clicks
+        </p>
+        <a href="meme.html" class="btn btn-primary" style="font-size: 20px;">Create a meme ></a>
+      </div>
+      <div class="hero__img">
+        <img src="img/hero.jpg" alt="">
+      </div>
+    </section>
+
+    <!-- HERO -->
+
+    <!-- ABOUT -->
+<section id="about" class="container flex-center flex-column">
+  <h5 class="section-subheading">Build Trust First</h5>
+  <h2 class="section-heading text-center">Create a meme with a single tap</h2>
+  <div class="features text-center">
+    <div class="feature" style="--color:#fe6786">
+      <div class="feature__icon">
+        <i class="fas fa-solid fa-1"></i>
+      </div>
+      <h3 class="feature__title">Come up with your meme idea</h3>
+      <p class="feature__text">
+        Usually, when you go to make a meme, you'll have an idea in mind. But if not, think of something funny.
+      </p>
+    </div>
+    <div class="feature" style="--color:#5cd8a5">
+      <div class="feature__icon">
+        <i class="fa-solid fa-2"></i>
+      </div>
+      <h3 class="feature__title">Choose & Open your images</h3>
+      <p class="feature__text">
+        Are you going to put your own caption on an existing image, or do you want to caption your own? 
+You can save an image from the web or choose a meme template. Once you have got your image, you are ready to go.
+      </p>
+    </div>
+    <div class="feature" style="--color:#fea95b">
+      <div class="feature__icon">
+        <i class="fa-solid fa-3"></i>
+      </div>
+      <h3 class="feature__title">Edit and add text</h3>
+      <p class="feature__text">
+        Now you will want to edit your image, but remember that the imagery for most memes is kept relatively simple, so you will probably only really need to crop your photo and add some text. 
+      </p>
+    </div>
+  </div>
+  <div class="about__details flex-center">
+    <div class="about__details-content">
+      <h1>Use of Meme Generator</h1>
+      <p>Making memes is a fun way to express yourself, but it's also a great way to make money. 
+        If you have a good sense of humor and a good idea, you can easily turn your meme into a money-making venture.  
+      </p>
+      <p>
+        You can make a meme about anything, and if it's funny enough, you can make a lot of money. 
+        You can also make a meme about a product or service and use it to promote your business.
+      </p>
+      <a href="login.html" class="btn btn-primary">
+        Get started
+      </a>
+    </div>
+    <div class="about__details-img">
+      <img src="img/about.png" alt="about">
+    </div>
+  </div>
+</section>
+    <!-- ABOUT -->
+
+    <!-- SERVICES -->
+<section id="services" style="background: url(img/background3.jpg); background-repeat: no-repeat; background-position: top; background-size: 100% 100%;">
+  <div class="container">
+    <h5 class="section-subheading">What we do</h5>
+    <h2 class="section-heading right">
+      Services to solve all kind of meme problems</h2>
+      <div class="services">
+        <div class="service">
+          <div class="service__icon">
+            <img src="img/squares.png" alt="">
+          </div>
+          <h3 class="services__title">Creates Memes</h3>
+          <p class="service__text">
+            Turn your ideas into memes with our easy-to-use meme generator.
+          </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <img src="img/video-camera.png" alt="">
+          </div>
+          <h3 class="services__title">Ecommerce Support</h3>
+          <p class="service__text">
+            Sell your memes and make money with our ecommerce support.
+          </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <img src="img/squares.png" alt="">
+          </div>
+          <h3 class="services__title">Photos Editing</h3>
+          <p class="service__text">
+            Edit your photos and make them meme-worthy with our photo editing tools.
+          </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <img src="img/headphones.png" alt="">
+          </div>
+          <h3 class="services__title">Realtime Support</h3>
+          <p class="service__text">
+            Get help with your memes 24/7 with our support team.
+          </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <img src="img/shopping-cart.png" alt="">
+          </div>
+          <h3 class="services__title">Ecommerce Design</h3>
+          <p class="service__text">
+            Design your ecommerce memes with our easy-to-use tools.
+          </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+        <div class="service">
+          <div class="service__icon">
+            <img src="img/upload.png" alt="">
+          </div>
+          <h3 class="services__title">File Upload</h3>
+          <p class="service__text">
+            Upload your own images and videos to make memes with.
+          </p>
+          <div class="arrow-icon">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </div>
+      </div>
+  </div>
+</section>
+    <!-- SERVICES -->
+
+    <!-- PROJECTS -->
+
+  <section id="projects"
+  style="
+    background: url(img/background2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+  "
+  >
+    <div class="container">
+      <h5 class="section-subheading">our Projects</h5>
+      <h2 class="section-heading">
+        The go to place for all your meme needs
+      </h2>
+      <div class="projects">
+        <div class="project">
+          <div class="project__img">
+            <img src="img/meme-01.jpg" alt="">
+          </div>
+          <div class="project__content">
+            <h3 class="project__category" style="color:#766fe7;">Meme Generator</h3>
+            <h3 class="project__title">Most flexible online Meme Generator for Modern Creators</h3>
+            <p class="project__text">
+              Where you can also upload your own templates or start from scratch with empty templates. 
+              You can draw, outline, or scribble on your meme using the panel just above the meme preview image.
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <div class="project__img">
+            <img src="img/photo_editing.jpg" alt="">
+          </div>
+          <div class="project__content">
+            <h3 class="project__category" style="color:#766fe7;">Photo Editing</h3>
+            <h3 class="project__title">Free Online Photo Editor with<br> stunning meme designs</h3>
+            <p class="project__text">
+              Drag and drop your image to the editor with ease and start editing right away. JPEG/JPG, PNG, WEBP, HEIC, SVG, and PSD (Photoshop) formats are supported
+            </p>
+          </div>
+        </div>
+        <div class="project">  
+          <div class="project__img" >
+            <img src="img/video.jpg" alt="">
+          </div>
+          <div class="project__content">
+            <h3 class="project__category" style="color:#766fe7;">E-Commerce Meme Generator</h3>
+            <h3 class="project__title">Convert your memes into business</h3>
+            <p class="project__text">
+              Turn the memes generated into a profitable business. <br>
+              You can sell your memes and make money with our ecommerce support.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- PROJECTS -->
+
+    <!-- TEAM -->
+    <!-- <section id="team" class="container">
+      <h5 class="section-subheading text-center">meet our team</h5>
+      <h2 class="section-heading text-center right left">
+        Awesome people with .........skills
+      </h2>
+      <div class="members">
+        <div class="member">
+          <div class="member__img">
+            <img src="img/soham.jpg" alt="">
+              <div class="member__social-icons">
+                <a href="https://www.instagram.com/techno_phile18/"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com/Soham2395"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/soham-chakraborty-108450255/"><i class="fab fa-linkedin"></i></a>
+              </div>
+          </div>
+          <div class="member__content">
+            <h1>Soham Chakraborty</h1>
+            <p>Full-stack Developer</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member__img">
+            <img src="img/somil.jpg" alt="">
+            <div class="member__social-icons">
+              <a href="https://www.instagram.com/somil___pathania/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/SomilPathania"><i class="fab fa-github"></i></a>
+              <a href="https://in.linkedin.com/in/somil-pathania-1570242a6"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member__content">
+            <h1>Somil Pathania</h1>
+            <p>Content Writer</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member__img">
+            <img src="img/subhjit.jpg" alt="">
+            <div class="member__social-icons">
+              <a href="https://www.instagram.com/subhajit_1905/"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/SubhajitM1905"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/subhajit-misra-07545829a"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member__content">
+            <h1>Subhajit Misra</h1>
+            <p>Front-end Developer</p>
+          </div>
+        </div>
+        <div class="member">
+          <div class="member__img">
+            <img src="img/subham.jpg" alt="">
+            <div class="member__social-icons">
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="https://github.com/Subhamstar"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/subham-das-22950b241/"><i class="fab fa-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="member__content">
+            <h1>Subham Das</h1>
+            <p>Front-end Developer</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <!-- TEAM -->
+
+    <!-- CONTACT -->
+
+    <section id="contact" style="
+    background: url(img/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    ">
+      <div class="container">
+        <h5 class="section-subheading text-center">Contact us</h5>
+        <h2 class="section-heading text-center left right">Stay connected with us for any reason</h2>
+        <div class="contact">
+          <form action="" class="contact__form">
+            <h1>Write us a message</h1>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="5" required>Your Message</textarea>
+            <button class="btn btn-primary">Send Message</button>
+          </form>
+          <div class="contact__details">
+            <p class="text">
+              We're here to help and answer any question you might have. We look forward to hearing from you !<br>
+              <br>
+              Contact us for any doubt or query. We are here to help you out.
+            </p>
+            <div class="details">
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Phone</h3>
+                  <p>+91 7894561320</p>
+                </div>
+              </div>
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Email</h3>
+                  <p>mails.karunyagupta@gmail.com</p>
+                </div>
+              </div>
+              <div class="detail">
+                <div class="detail__icon">
+                  <i class="fas fa-map-marked-alt"></i>
+                </div>
+                <div class="detail__content">
+                  <h3>Address</h3>
+                  <p>Chitkara University, Punjab</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>       
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+
+    <!-- FOOTER -->
+
+<footer>
+  <div class="container">
+    <div class="footer__content">
+      <div class="footer__details">
+        <div class="footer__logo">
+          <h4 style="color: #fff"><b>meme<span class="head-two">hub.</span></b></h4>
+        </div>
+        <p class="footer__text">
+          Drag-and-drop Templates or photos from your device
+        </p>
+        <div class="footer__newletter">
+          <form action="#" class="footer__newsletter-form">
+            <input type="email" placeholder="Submit email" required >
+            <div class="icon">
+              <i class="fa fa-envelope"></i>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer__menu">
+        <h3 class="footer__menu-title">Quick Links</h3>
+        <ul class="footer__menu-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#team">Team</a></li>
+          <li><a href="#contacts">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <h3 class="footer__menu-title">Services</h3>
+        <ul class="footer__menu-list">
+          <li><a href="meme.html">Meme Generator</a></li>
+          <li><a href="meme.html">Photo Editing</a></li>
+        </ul>
+      </div>
+      <div class="footer__menu">
+        <h3 class="footer__menu-title">Social</h3>
+        <ul class="footer__menu-list">
+          <li><a href="#">Facebook</a></li>
+          <li><a href="#">Twitter</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Linkedin</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="footer__bottom-icons">
+        <p style="color:#fff">Follow us</p>
+        <a href="#" class="facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="#" class="linkedin">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p style="color:#fff">&copy; 2024 MemeHub. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <!-- FOOTER -->
+
+    <!-- FONTAWESOME -->
+    <script src="fontawesome.min.js"></script>
+    <!-- FONTAWESOME -->
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- AOS -->
+
+    <!-- SCRIPTS -->
+    <script src="script.js"></script>
+    <!-- SCRIPTS -->
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
